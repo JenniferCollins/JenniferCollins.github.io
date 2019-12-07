@@ -1,0 +1,90 @@
+
+
+#content {
+	width: 20%;
+	height: 400px;
+	z-index:1000;
+	position: relative;
+	top: 200px;
+}
+#footer {
+	width: 20%;
+	height: 400px;
+	z-index: 1000;
+	position: fixed;
+	bottom: -375px;
+	right:  400px;
+}
+#contact {font-size: 25;
+	width: 20%;
+	height: 400px;
+	z-index: 1000;
+	position: fixed;
+	center: -350px;
+	right:  740px;
+}
+#jennifer {font-size: 25;
+	width: 20%;
+	height: 400px;
+	z-index: 1000;
+	position: fixed;
+	center: -350px;
+	right:  740px;
+}
+
+#Tour{	
+	width: 20%;
+	height: 400px;
+	z-index: 1000;
+	position: fixed;
+	bottom: -290px;
+right: 470px;
+}
+#bio {
+	width: 600px;
+	height: 500px;
+	position:fixed;
+}
+#reviews {
+	width: 200px;
+	height: 100px;
+	position:fixed;
+	right:70
+	}
+@media screen and (max-width:959px) {
+	#content{
+		width:100%;
+	}
+	#reviews{
+		width:70%;
+	}
+	#right-column{
+		width:70%;
+	}
+}
+
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@-ms-viewport{
+	zoom: extend-to-zoom;
+	width: 1.0;
+}
+
+#mission {
+	width: 20%;
+	height: 400px;
+	z-index:1000;
+	position: fixed;
+	top: 100px;
+	right: 0px;
+}
+
+
+body{
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
